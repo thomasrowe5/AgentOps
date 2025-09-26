@@ -1,0 +1,3 @@
+This policy respects privacy.
+This policy violates a rule.
+Ambiguous compliance.
