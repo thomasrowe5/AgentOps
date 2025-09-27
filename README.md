@@ -85,18 +85,3 @@ MIT License – Use, modify, and distribute freely. Contributions welcome!
 
 ---
 
-## 📦 Step 2: Save and close
-
-- Press `CTRL + O` → `Enter`  
-- Press `CTRL + X` to exit Nano
-
----
-
-## 📤 Step 3: Commit and push the README
-
-Now add, commit, and push it to GitHub:
-
-```bash
-git add README.md
-git commit -m "docs: add comprehensive README for AgentOps project"
-git push origin main
