@@ -1,18 +1,16 @@
-model:
-  name: gpt-4o-mini
-  temperature: 0.3
-  max_tokens: 1000
-
-workflow:
-  name: "doc_classification"
-  initial_chunk_size: 1000
-  temperature: 0.5
-
-metrics:
-  accuracy_threshold: 0.90
-  runtime_target_seconds: 5
-
 data:
-  log_path: "data/metrics.csv"
-  suggestions_path: "data/suggestions.json"
-  experiments_db: "data/experiments.db"
+  experiments_db: data/experiments.db
+  log_path: data/metrics.csv
+  suggestions_path: data/suggestions.json
+metrics:
+  accuracy_threshold: 0.9
+  runtime_target_seconds: 5
+model:
+  max_tokens: 1000
+  name: gpt-4o-mini
+  temperature: 1.0
+workflow:
+  initial_chunk_size: 2800
+  name: doc_classification
+  temperature: 0.5
+  threshold: 1.0

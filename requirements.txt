@@ -5,3 +5,4 @@ streamlit
 pyyaml
 tqdm
 python-dotenv
+scikit-learn
