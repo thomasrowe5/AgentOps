@@ -1,5 +1,6 @@
 {
   "applied": [
-    "increase_threshold"
+    "increase_threshold",
+    "consider_hparam_tuning"
   ]
 }
